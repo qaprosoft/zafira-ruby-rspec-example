@@ -12,7 +12,7 @@ Then create a freestyle project.
 Following settings should be set before run:
 - Source Code Management
   - Git
-    - Repository URL. It's a rspec tests repository. Currently we use `https://github.com/qaprosoft/zafira-ruby-rspec-integration`.
+    - Repository URL. It's a rspec tests repository. Currently we use `https://github.com/qaprosoft/zafira-ruby-rspec-example`.
     - Branch Specifier (blank for 'any'). A branch. Currently we use `master`.
   - Build
     - Add execute shell. We use script below:
@@ -106,4 +106,4 @@ By default `zafira-ruby` sends backtrace for failed tests only.
 For example you want to send screenshots for your capybara tests. You can easily write your own handlers. Please, read https://github.com/qaprosoft/zafira-ruby#zafira-logging-overrides how to do it.
 
 You also can check how we added a custom handler for cucumber example:
-https://github.com/qaprosoft/zafira-ruby-cucumber-integration
+https://github.com/qaprosoft/zafira-ruby-cucumber-example
