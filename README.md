@@ -47,7 +47,7 @@ Then create a freestyle project.
 Following settings should be set before run:
 - Source Code Management
   - Git
-    - Repository URL. It's a rspec tests repository. Currently we use `https://github.com/qaprosoft/zafira-ruby-rspec-integration`.
+    - Repository URL. It's a rspec tests repository. Currently we use `https://github.com/qaprosoft/zafira-ruby-rspec-example`.
     - Branch Specifier (blank for 'any'). A branch. Currently we use `master`.
   - Build Environment
     - Run the build in a RVM-managed environment. Should be checked. We use `2.4.0`.
